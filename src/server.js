@@ -16,6 +16,9 @@ const onRequest = (request, response) => {
     case '/page2':
       htmlHandler.getPage2(request, response);
       break;
+    case '/rich-client.html':
+      htmlHandler.getRichClient(request, response);
+      break;
     case '/hello':
       textHandler.getHello(request, response);
       break;
