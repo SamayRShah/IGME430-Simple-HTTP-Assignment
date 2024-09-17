@@ -16,6 +16,7 @@ const onRequest = (request, response) => {
     case '/page2':
       htmlHandler.getPage2(request, response);
       break;
+    case '/rich-client.html':
     case '/rich-client':
       htmlHandler.getRichClient(request, response);
       break;
@@ -31,6 +32,7 @@ const onRequest = (request, response) => {
     case '/timeJSON':
       jsonHandler.getTimeJSON(request, response);
       break;
+    case '/dankmemes.png':
     case '/dankmemes':
       imageHandler.getImage(request, response);
       break;
